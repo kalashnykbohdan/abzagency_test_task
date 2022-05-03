@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  text-size-adjust: 100%;
+}
+
+
+*,*::before, 
+*,*::after{
+  box-sizing: inherit;
+}
+
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+
+nav,footer,header,aside {display: block;}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+
+/* .button:disabled:hover{
+
+  background-color: #B4B4B4;
+  color: white;
+} */
+section{
+  width: 100%;
+  height: auto;
+  background-color: #F8F8F8;
+}
+span{
+  overflow: hidden;
+}
+
+.h1{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 140px 0 50px 0;
+}
+
+.button{
+  display: block;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  /* width: 100px; */
+  height: 34px;
+  border-radius: 80px;
+  background-color: #F4E041;
+}
+.button:hover{
+background-color: #FFE302;
+}
+.button:disabled{
+background-color: #B4B4B4;
+color: white;
+}
+
+.visible{
+  display: bloke;
+}
+.unvisible{
+  display: none;
+}
+
+.loading{
+  margin: 0 auto;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 8px solid #b4b4b4;
+  border-top-color: #00bdd3;
+  animation-name: preloader;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes preloader {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

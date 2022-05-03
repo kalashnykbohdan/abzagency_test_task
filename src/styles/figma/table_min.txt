@@ -1,0 +1,2190 @@
+/* 0202 - One page - 768 */
+
+position: relative;
+width: 768px;
+height: 2649px;
+
+/* Background */
+background: #F8F8F8;
+
+
+/* Frame 126 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 768px;
+height: 2489px;
+left: 0px;
+top: 60px;
+
+
+
+/* Banner */
+
+position: static;
+width: 768px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 140px 0px;
+
+
+/* image 1 */
+
+position: absolute;
+width: 768px;
+height: 500px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-alexandr-podvalny-1227513.jpg);
+
+
+/* Frame 119 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 25.26%;
+right: 25.26%;
+top: 17.8%;
+bottom: 17.6%;
+
+
+
+/* Frame 126 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 380px;
+height: 257px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+
+
+/* Test assignment for front-end developer */
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 68.87%;
+
+/* H1 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 21px 0px;
+
+
+/* What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with a vast understanding of User design thinking as they'll be building web interfaces with accessibility in mind. They should also be excited to learn, as the world of Front-End Development keeps evolving. */
+
+position: static;
+left: 0%;
+right: 0%;
+top: 39.3%;
+bottom: 0%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 21px 0px;
+
+
+/* Button */
+
+position: static;
+left: 36.84%;
+right: 36.84%;
+top: 89.47%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary */
+background: #F4E041;
+border-radius: 80px;
+
+
+/* Normal */
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: calc(50% - 55px/2 + 0.5px);
+top: calc(50% - 26px/2);
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Frame 99 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 968px;
+left: 32px;
+top: 640px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 140px 0px;
+
+
+/* Working with GET request */
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 95.87%;
+
+/* H1 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 794px;
+left: 0px;
+top: 90px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 254px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+
+/* Group 98 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 0%;
+right: 51.14%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Group 99 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 360px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 51.14%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Frame 159 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 254px;
+left: 0px;
+top: 270px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+
+/* Group 98 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 0%;
+right: 51.14%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Group 99 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 360px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 51.14%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Frame 160 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 254px;
+left: 0px;
+top: 540px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 16px 0px;
+
+
+/* Group 98 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 0%;
+right: 51.14%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Group 99 */
+
+position: static;
+width: 344px;
+height: 254px;
+left: 360px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+/* Card */
+
+position: absolute;
+left: 51.14%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 158 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 304px;
+height: 214px;
+left: 20px;
+top: 20px;
+
+
+
+/* Ellipse 3 */
+
+position: static;
+left: 38.49%;
+right: 38.49%;
+top: 0%;
+bottom: 67.29%;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Salvador Stewart Flynn Thomas Salva... */
+
+position: static;
+width: 304px;
+height: 26px;
+left: 0px;
+top: 90px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Leading specialist of the department of c... JeromeKlarkaJeromeKlarka1923362362... +38 (098) 278 76 24 */
+
+position: static;
+width: 304px;
+height: 78px;
+left: 0px;
+top: 136px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px;
+
+
+/* Button */
+
+position: static;
+left: 41.48%;
+right: 41.48%;
+top: 96.49%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary */
+background: #F4E041;
+border-radius: 80px;
+
+
+/* Normal */
+
+position: absolute;
+width: 83px;
+height: 26px;
+left: calc(50% - 83px/2 + 0.5px);
+top: calc(50% - 26px/2);
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Register to get a work */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 704px;
+height: 741px;
+left: 32px;
+top: 1748px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 140px 0px;
+
+
+/* Working with POST request */
+
+position: static;
+width: 704px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* H1 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Group 75 */
+
+position: static;
+width: 380px;
+height: 567px;
+left: 162px;
+top: 90px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Photo */
+
+position: absolute;
+width: 380px;
+height: 54px;
+left: 162px;
+top: 603px;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+left: 23.01%;
+right: 23.01%;
+top: 81.38%;
+bottom: 11.34%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+/* Group 10 */
+
+position: absolute;
+left: 23.01%;
+right: 65.2%;
+top: 81.38%;
+bottom: 11.34%;
+
+
+
+/* Rectangle 18 */
+
+position: absolute;
+left: 23.01%;
+right: 65.2%;
+top: 81.38%;
+bottom: 11.34%;
+
+/* Black 87 */
+border: 1px solid rgba(0, 0, 0, 0.87);
+box-sizing: border-box;
+border-radius: 4px 0px 0px 4px;
+
+
+/* Upload */
+
+position: absolute;
+left: 25.14%;
+right: 67.33%;
+top: 83.27%;
+bottom: 13.23%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* arrow_drop_down-24px 1 */
+
+position: absolute;
+left: 72.3%;
+right: 24.29%;
+top: 83.4%;
+bottom: 13.36%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Upload your photo */
+
+position: absolute;
+left: 37.07%;
+right: 43.89%;
+top: 83.27%;
+bottom: 13.23%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+
+color: #7E7E7E;
+
+
+
+/* Phone */
+
+position: absolute;
+width: 380px;
+height: 54px;
+left: 162px;
+top: 298px;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+/* +38 (XXX) XXX - XX - XX */
+
+position: absolute;
+left: 4.21%;
+right: 59.74%;
+top: 107.41%;
+bottom: -33.33%;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+color: #7E7E7E;
+
+
+
+/* Phone */
+
+position: absolute;
+left: 4.21%;
+right: 83.68%;
+top: 25.93%;
+bottom: 25.93%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+color: #7E7E7E;
+
+
+
+/* Email */
+
+position: absolute;
+width: 380px;
+height: 54px;
+left: 162px;
+top: 194px;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+/* Email */
+
+position: absolute;
+left: 4.21%;
+right: 85.26%;
+top: 25.93%;
+bottom: 25.93%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+color: #7E7E7E;
+
+
+
+/* Name */
+
+position: absolute;
+width: 380px;
+height: 54px;
+left: 162px;
+top: 90px;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+border-radius: 4px;
+
+
+/* Your name */
+
+position: absolute;
+left: 4.21%;
+right: 75.79%;
+top: 25.93%;
+bottom: 25.93%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+color: #7E7E7E;
+
+
+
+/* Group 74 */
+
+position: absolute;
+width: 380px;
+height: 161px;
+left: 162px;
+top: 395px;
+
+
+
+/* Select your position */
+
+position: absolute;
+width: 380px;
+height: 25px;
+left: 162px;
+top: 395px;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Group 145 */
+
+position: absolute;
+width: 170px;
+height: 26px;
+left: 162px;
+top: 464px;
+
+
+
+/* Backend developer */
+
+position: absolute;
+left: 27.56%;
+right: 52.84%;
+top: 62.62%;
+bottom: 33.87%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Ellipse 27 */
+
+position: absolute;
+left: 23.01%;
+right: 74.15%;
+top: 63.02%;
+bottom: 34.28%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+
+
+/* Group 144 */
+
+position: absolute;
+width: 97px;
+height: 26px;
+left: 162px;
+top: 497px;
+
+
+
+/* Designer */
+
+position: absolute;
+left: 27.56%;
+right: 63.21%;
+top: 67.07%;
+bottom: 29.42%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Ellipse 27 */
+
+position: absolute;
+left: 23.01%;
+right: 74.15%;
+top: 67.48%;
+bottom: 29.82%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+
+
+/* Group 143 */
+
+position: absolute;
+width: 56px;
+height: 26px;
+left: 162px;
+top: 530px;
+
+
+
+/* QA */
+
+position: absolute;
+left: 27.56%;
+right: 69.03%;
+top: 71.52%;
+bottom: 24.97%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Ellipse 27 */
+
+position: absolute;
+left: 23.01%;
+right: 74.15%;
+top: 71.93%;
+bottom: 25.37%;
+
+border: 1px solid #D0CFCF;
+box-sizing: border-box;
+
+
+/* Group 147 */
+
+position: absolute;
+width: 173px;
+height: 26px;
+left: 162px;
+top: 431px;
+
+
+
+/* Frontend developer */
+
+position: absolute;
+left: 27.56%;
+right: 52.41%;
+top: 58.16%;
+bottom: 38.33%;
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Group 146 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 162px;
+top: 434px;
+
+
+
+/* Ellipse 27 */
+
+position: absolute;
+left: 23.01%;
+right: 74.15%;
+top: 58.57%;
+bottom: 38.73%;
+
+/* Secondary */
+border: 1px solid #00BDD3;
+box-sizing: border-box;
+
+
+/* Ellipse 28 */
+
+position: absolute;
+left: 23.72%;
+right: 74.86%;
+top: 59.24%;
+bottom: 39.41%;
+
+/* Secondary */
+background: #00BDD3;
+
+
+/* Button */
+
+position: static;
+left: 42.9%;
+right: 42.9%;
+top: 95.41%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 50px 0px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #B4B4B4;
+border-radius: 80px;
+
+
+/* Normal */
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: calc(50% - 55px/2 + 0.5px);
+top: calc(50% - 26px/2);
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.87);
+
+
+
+/* Menu */
+
+position: absolute;
+width: 768px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Frame 126 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+left: 68.49%;
+right: 4.17%;
+top: 21.67%;
+bottom: 21.67%;
+
+
+
+/* Button */
+
+position: static;
+left: 0%;
+right: 52.38%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary */
+background: #F4E041;
+border-radius: 80px;
+
+
+/* Normal */
+
+position: absolute;
+width: 42px;
+height: 26px;
+left: calc(50% - 42px/2);
+top: calc(50% - 26px/2);
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Button */
+
+position: static;
+left: 52.38%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary */
+background: #F4E041;
+border-radius: 80px;
+
+
+/* Normal */
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: calc(50% - 55px/2 + 0.5px);
+top: calc(50% - 26px/2);
+
+/* Body 16 */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black 87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* Logo */
+
+position: absolute;
+left: 4.17%;
+right: 82.29%;
+top: 28.33%;
+bottom: 28.33%;
+
+
+
+/* Group 43 */
+
+position: absolute;
+left: 0%;
+right: 63.35%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 63.35%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.72%;
+right: 69.48%;
+top: 3.08%;
+bottom: 0.87%;
+
+/* Primary */
+background: #F4E041;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.43%;
+right: 69.19%;
+top: 0%;
+bottom: 0%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 19.9%;
+right: 79.16%;
+top: 42.47%;
+bottom: 42.5%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 16.39%;
+right: 82.44%;
+top: 43.28%;
+bottom: 44.46%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 5.49%;
+right: 88.57%;
+top: 48.85%;
+bottom: 40.97%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 4.68%;
+right: 89.01%;
+top: 60.07%;
+bottom: 36.23%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 4.67%;
+right: 89%;
+top: 68.17%;
+bottom: 29.03%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 25.8%;
+right: 68.26%;
+top: 48.85%;
+bottom: 40.97%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 26.24%;
+right: 67.44%;
+top: 60.07%;
+bottom: 36.23%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 26.23%;
+right: 67.44%;
+top: 68.17%;
+bottom: 29.03%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 24.92%;
+right: 74.89%;
+top: 90.69%;
+bottom: 1.77%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.7%;
+right: 74.67%;
+top: 89.82%;
+bottom: 0.9%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 26.37%;
+right: 73.33%;
+top: 90.34%;
+bottom: 2.9%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.15%;
+right: 73.11%;
+top: 89.46%;
+bottom: 2.03%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 12.12%;
+right: 87.69%;
+top: 90.69%;
+bottom: 1.77%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 11.9%;
+right: 87.47%;
+top: 89.81%;
+bottom: 0.9%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 10.56%;
+right: 89.13%;
+top: 90.34%;
+bottom: 2.9%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.34%;
+right: 88.91%;
+top: 89.46%;
+bottom: 2.03%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 91.73%;
+top: 86.19%;
+bottom: 12.31%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 28.87%;
+right: 63.35%;
+top: 86.09%;
+bottom: 12.16%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 16.29%;
+right: 79.03%;
+top: 65.26%;
+bottom: 22.76%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
+
+
+/* Vector */
+
+position: absolute;
+left: 38.55%;
+right: 0%;
+top: 31.24%;
+bottom: 28.28%;
+
+/* Black 87 */
+background: rgba(0, 0, 0, 0.87);
