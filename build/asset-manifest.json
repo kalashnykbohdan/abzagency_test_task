@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccb53eb9.css",
+    "main.js": "/static/js/main.d061a617.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/success-image.svg": "/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
+    "static/media/Logo.svg": "/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "index.html": "/index.html",
+    "main.ccb53eb9.css.map": "/static/css/main.ccb53eb9.css.map",
+    "main.d061a617.js.map": "/static/js/main.d061a617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccb53eb9.css",
+    "static/js/main.d061a617.js"
+  ]
+}
