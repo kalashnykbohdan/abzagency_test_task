@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Formik, Field} from 'formik';
 import UsersAPI from '../FetchRequest';
 import style from './AddUser.module.scss';
-import UsersList from '../UserList';
 
 import success_image from '../../img/success-image.svg';
 
@@ -11,7 +10,7 @@ class AddUser extends Component {
         positionList: [],
         status: false,
         token: '',
-        isLoading: false
+        isLoading: false,
     };
 
     componentDidMount(){
@@ -63,29 +62,29 @@ class AddUser extends Component {
             isLoading: true,
         })
 
-        // setTimeout(() => {this.setState({
-        //     isLoading: false,
-        //     status: 201
-        // })}, 5000);
+        setTimeout(() => {this.setState({
+            isLoading: false,
+            status: 201
+        })}, 5000);
 
-        UsersAPI.fetchPostUser(values, this.state.token)
-            .then(data => { 
-                    if(data.status === 201){
-                        this.setState({ status: true})
-                        this.props.submitTrue();
-                        console.log(data.status, 'submitTrue true')
-                    }
-                else{
-                    this.setState({ status: false})
-                    console.log(data.status, 'submitTrue false')
-                }
-            })
-            .finally(() => this.setState({isLoading: false}));
+        // UsersAPI.fetchPostUser(values, this.state.token)
+        //     .then(data => { 
+        //             if(data.status === 201){
+        //                 this.setState({ status: true})
+        //                 this.props.submitTrue();
+        //                 console.log(data.status, 'submitTrue true')
+        //             }
+        //         else{
+        //             this.setState({ status: false})
+        //             console.log(data.status, 'submitTrue false')
+        //         }
+        //     })
+        //     .finally(() => this.setState({isLoading: false}));
   
     };
 
     render() {
-        const {name, email, phone, positionList, position, status, isLoading} = this.state;
+        const {positionList, status, isLoading} = this.state;
         return (
             <section id="post_request">
                 <div className={style.wrap}>
@@ -152,7 +151,7 @@ class AddUser extends Component {
                                     value={values.phone}
                                     />
                                     <span className={values.phone !== '' ? style.lable__text + ' visible': style.lable__text}>phone</span>
-                                    <span className={style.phone_exemple}>+38 (XXX) XXX - XX - XX</span>
+                                    <span className={style.phone_exemple}>+38 (XX) XXX - XX - XX</span>
                                     <span className={style.error__text}>{touched.phone && errors.phone}</span>
                                 </label>
                                 <div className={style.redio__block}>
@@ -167,6 +166,7 @@ class AddUser extends Component {
                                         ))
                                         
                                     }
+                                    <span className={style.error__text}>{touched.position_id && errors.position_id}</span>
                                 </div>
                                 <div className={style.file__wrap_input}>
                                     <input 
@@ -179,14 +179,14 @@ class AddUser extends Component {
                                         />
                                     <button type='button' onClick={() => this.fileUpload.click()} className={style.file__bth}>Upload</button>
                                     <div className={style.file__bth_wpar_name}>
-                                        <span className={style.file__bth_span}>{values.photo.name}</span>
+                                        <span className={style.file__bth_span}>{values.photo && values.photo.name}</span>
                                     </div>
-                                    <span className={style.error__text + ' ' + style.error__text_photo}>{values.photo.name && errors.photo}</span>
+                                    <span className={style.error__text + ' ' + style.error__text_photo}>{touched.photo && errors.photo}</span>
                                 </div>
                                 
                                 <button type="submit" 
-                                    disabled={!isValid || isSubmitting}
-                                    className={!isValid ? style.sub__bth + ' ' + style.sub__bth_disabled : style.sub__bth}
+                                    disabled={!touched.name || !isValid ? true : false}
+                                    className={!touched.name || !isValid ? style.sub__bth + ' ' + style.sub__bth_disabled : style.sub__bth}
                                     >Sign up</button>
                             </form>
                         )}
