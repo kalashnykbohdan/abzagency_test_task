@@ -62,24 +62,24 @@ class AddUser extends Component {
             isLoading: true,
         })
 
-        setTimeout(() => {this.setState({
-            isLoading: false,
-            status: 201
-        })}, 5000);
+        // setTimeout(() => {this.setState({
+        //     isLoading: false,
+        //     status: 201
+        // })}, 5000);
 
-        // UsersAPI.fetchPostUser(values, this.state.token)
-        //     .then(data => { 
-        //             if(data.status === 201){
-        //                 this.setState({ status: true})
-        //                 this.props.submitTrue();
-        //                 console.log(data.status, 'submitTrue true')
-        //             }
-        //         else{
-        //             this.setState({ status: false})
-        //             console.log(data.status, 'submitTrue false')
-        //         }
-        //     })
-        //     .finally(() => this.setState({isLoading: false}));
+        UsersAPI.fetchPostUser(values, this.state.token)
+            .then(data => { 
+                    if(data.status === 201){
+                        this.setState({ status: true})
+                        this.props.submitTrue();
+                        console.log(data.status, 'submitTrue true')
+                    }
+                else{
+                    this.setState({ status: false})
+                    console.log(data.status, 'submitTrue false')
+                }
+            })
+            .finally(() => this.setState({isLoading: false}));
   
     };
 
