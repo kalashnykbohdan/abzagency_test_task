@@ -151,7 +151,7 @@ class AddUser extends Component {
                                     value={values.phone}
                                     />
                                     <span className={values.phone !== '' ? style.lable__text + ' visible': style.lable__text}>phone</span>
-                                    <span className={style.phone_exemple}>+38 (XX) XXX - XX - XX</span>
+                                    <span className={style.phone_exemple}>+380 (XX) XXX - XX - XX</span>
                                     <span className={style.error__text}>{touched.phone && errors.phone}</span>
                                 </label>
                                 <div className={style.redio__block}>
@@ -181,7 +181,7 @@ class AddUser extends Component {
                                     <div className={style.file__bth_wpar_name}>
                                         <span className={style.file__bth_span}>{values.photo && values.photo.name}</span>
                                     </div>
-                                    <span className={style.error__text + ' ' + style.error__text_photo}>{touched.photo && errors.photo}</span>
+                                    <span className={style.error__text + ' ' + style.error__text_photo}>{values.photo && errors.photo}</span>
                                 </div>
                                 
                                 <button type="submit" 
