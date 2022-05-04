@@ -4,14 +4,10 @@
     height: auto;
 }
 .users{
-    /* background-color: bisque; */
-    /* width: 360px; */
-
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    /* background-color: antiquewhite; */
     padding: 16px;
 }
 .user__item{
@@ -85,7 +81,6 @@ span{
     }
     .users{
         padding: 0 60px;
-        /* max-width: 1024px; */
     }
     .wrap{
         width: 1024px;

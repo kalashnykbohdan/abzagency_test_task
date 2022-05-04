@@ -1,4 +1,4 @@
-import style from './Slid.module.css';
+import style from './Slid.module.scss';
 
 function Slid() {
     return(

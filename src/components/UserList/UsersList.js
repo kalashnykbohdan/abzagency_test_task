@@ -7,7 +7,7 @@ import photoDefult from './../../img/photo-cover.svg';
 
 
 // import FetchRequest from './FetchRequest';
-import style from './UserList.module.css';
+import style from './UserList.module.scss';
 
 axios.defaults.baseURL= 'https://frontend-test-assignment-api.abz.agency';
 
@@ -36,7 +36,6 @@ class UsersList extends Component {
             })
             .catch(error => console.log(error))
             .finally(() => this.setState({isLoading: false}));
-            console.log(this.state.users);
     }
 
     fetchUsersFunc = (currentPage) => {
@@ -60,7 +59,6 @@ class UsersList extends Component {
 
     componentDidUpdate(){
         if(this.props.submitTrueValue === true){
-            console.log(this.props.submitTrueValue,'componentDidUpdate UsersList submitTrueValue')
 
             this.fetchUsersFunc(1);
             this.props.onSubmitUpdate();

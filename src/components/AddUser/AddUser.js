@@ -1,46 +1,26 @@
 import React, { Component } from 'react';
 import {Formik, Field} from 'formik';
 import UsersAPI from '../FetchRequest';
-import style from './AddUser.module.css';
+import style from './AddUser.module.scss';
 import UsersList from '../UserList';
 
 import success_image from '../../img/success-image.svg';
-// import { formPost } from "./formPost";
-
-// import { Formik } from 'formik';
 
 class AddUser extends Component {
     state = {
-        name: '',
-        email: '',
-        phone: '',
-        position_id: null,
-        photo: '',
         positionList: [],
-        token: '',
-        currentPage: '',
         status: false,
+        token: '',
         isLoading: false
     };
-
-    initialValues = { name: '', email: '', phone: '', position_id: null,};
-
-
-    handlePosition = e => {
-        // console.log('use handlePosition');
-        this.setState({
-            position: e.target.value,
-        })
-    }
 
     componentDidMount(){
         UsersAPI.fetchPosition().then(userPosition => {
             this.setState({positionList: userPosition})
             })
-            UsersAPI.fetchToken().then(userToken => {
-                this.setState({token: userToken});
-                // console.log(userToken)
-                })
+        UsersAPI.fetchToken().then(userToken => {
+            this.setState({token: userToken});
+            })
     }
 
     validate = values => {
@@ -85,6 +65,7 @@ class AddUser extends Component {
 
         // setTimeout(() => {this.setState({
         //     isLoading: false,
+        //     status: 201
         // })}, 5000);
 
         UsersAPI.fetchPostUser(values, this.state.token)
@@ -107,16 +88,15 @@ class AddUser extends Component {
         const {name, email, phone, positionList, position, status, isLoading} = this.state;
         return (
             <section id="post_request">
-                <div className={style.wrap_form}>
+                <div className={style.wrap}>
                     <h1 className='h1'>Working with POST request</h1>
-                    {isLoading && <div className='loading'></div>}
+                    {isLoading && <div className={style.wrap__loading_masseg}><div className='loading'></div></div>}
                     {status && !isLoading &&
-                    <div className={style.user__success_image}>
-                        <img src={success_image} alt='success'/>
+                    <div className={style.wrap__loading_masseg}>
+                        <div className={style.user__success_image}>
+                            <img src={success_image} alt='success'/>
+                        </div>
                     </div>}
-                    {/* <div className={status ? style.user__success_image + ' '+ style.visible : style.user__success_image}>
-                        <img src={success_image} alt='success'/>
-                    </div> */}
                     {!isLoading &&
                     <Formik 
                         
@@ -136,7 +116,7 @@ class AddUser extends Component {
                             isSubmitting,
                             /* and other goodies */
                         }) => (
-                            <form onSubmit={handleSubmit} className={status ? style.form + ' '+ style.unvisible : style.form}>
+                            <form onSubmit={handleSubmit} className={status ? style.form + ' unvisible' : style.form}>
                                 <label className={style.name__label}>
                                     <input type="text"
                                     name="name"
@@ -145,10 +125,10 @@ class AddUser extends Component {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.name}
-                                    autoFocus
+                                    // autoFocus
                                     />
-                                    <span className={values.name !== '' ? style.lable__text + ' ' + style.visible: style.lable__text}>name</span>
-                                    <span className={style.error__text}>{errors.name && touched.name && errors.name}</span>
+                                    <span className={values.name !== '' ? style.lable__text + ' visible': style.lable__text}>name</span>
+                                    <span className={style.error__text}>{touched.name && errors.name}</span>
                                 </label>
                                 <label className={style.email__label}>
                                     <input type="email"
@@ -158,10 +138,9 @@ class AddUser extends Component {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.email}
-                                    autoFocus
                                     />
-                                    <span className={values.email !== '' ? style.lable__text + ' ' + style.visible: style.lable__text}>email</span>
-                                    <span className={style.error__text}>{errors.email && touched.email && errors.email}</span>
+                                    <span className={values.email !== '' ? style.lable__text + ' visible': style.lable__text}>email</span>
+                                    <span className={style.error__text}>{touched.email && errors.email}</span>
                                 </label>
                                 <label className={style.phone__label}>
                                     <input type="tel"
@@ -171,23 +150,23 @@ class AddUser extends Component {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.phone}
-                                    autoFocus
                                     />
-                                    <span className={values.phone !== '' ? style.lable__text + ' ' + style.visible: style.lable__text}>phone</span>
+                                    <span className={values.phone !== '' ? style.lable__text + ' visible': style.lable__text}>phone</span>
                                     <span className={style.phone_exemple}>+38 (XXX) XXX - XX - XX</span>
-                                    <span className={style.error__text}>{errors.phone && touched.phone && errors.phone}</span>
+                                    <span className={style.error__text}>{touched.phone && errors.phone}</span>
                                 </label>
                                 <div className={style.redio__block}>
                                     <span className={style.file__span}>Select your position</span>
                                     {
                                         positionList.map(({id, name}) =>(
-                                            <label className={style.redio__input}>
-                                                <Field id={id} type="radio" name="position_id" value={id} checked={values.position_id == id} className={style.input_radio}/>
+                                            <label className={style.radio__input}>
+                                                <Field id={id} type="radio" hidden name="position_id" value={id} checked={values.position_id == id} className={style.input_radio}/>
                                                 {name}
+                                                <span className={values.position_id == id ? style.radio_button + ' ' + style.radio_button__checked: style.radio_button}></span>
                                             </label>
                                         ))
+                                        
                                     }
-                                    {/* <span className={style.error__text}>{errors.position_id && touched.position_id && errors.position_id}</span>    */}
                                 </div>
                                 <div className={style.file__wrap_input}>
                                     <input 
@@ -202,7 +181,7 @@ class AddUser extends Component {
                                     <div className={style.file__bth_wpar_name}>
                                         <span className={style.file__bth_span}>{values.photo.name}</span>
                                     </div>
-                                    <span className={style.error__text + ' ' + style.error__text_photo}>{errors.photo && touched.photo && errors.photo}</span>
+                                    <span className={style.error__text + ' ' + style.error__text_photo}>{values.photo.name && errors.photo}</span>
                                 </div>
                                 
                                 <button type="submit" 
