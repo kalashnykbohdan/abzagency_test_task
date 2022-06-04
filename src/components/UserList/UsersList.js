@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import axios from 'axios';
 import UsersAPI from '../FetchRequest';
@@ -84,7 +83,7 @@ class UsersList extends Component {
                         ))}
                     </ul>
                     {isLoading && <div className='loading'></div>}
-                    <button type="button" disabled={total_Page === currentPage ? true : false} onClick={this.onLoadMore} className={!isLoading ? 'button ' + style.user__button : 'button ' + style.user__button +' '+'unvisible'}>Show more</button>
+                    <button type="button" disabled={total_Page === currentPage} onClick={this.onLoadMore} className={!isLoading ? 'button ' + style.user__button : 'button ' + style.user__button + ' unvisible'}>Show more</button>
                 </div>
             </section>
         );

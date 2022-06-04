@@ -5,10 +5,10 @@ import logo from '../../img/Logo.svg';
 
 
 const Header = () =>(
-    <header className={style.header}>
+    <header className={style.header} id="home">
         <div className={style.header__top}>
             <div className={style.wrap_log}>
-                <a href='#'><img src={logo} alt="img_logo"/></a>
+                <a href='#home'><img src={logo} alt="img_logo"/></a>
             </div>
             <nav className={style.menu}>
                 <ul className={style.menu__list}>
