@@ -49,12 +49,6 @@ label{
     position: absolute;
     top: 0;
 }
-/* .name__input{
-    padding: 14px 16px 14px 16px;
-    border: 1px solid #D0CFCF;
-    box-sizing: border-box;
-    border-radius: 4px;
-} */
 .email__label{
     display: flex;
     flex-direction: column;
@@ -89,9 +83,6 @@ label{
 
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
-    /* text-align: left; */
 }
 .input:checked{
     color: #7E7E7E;
