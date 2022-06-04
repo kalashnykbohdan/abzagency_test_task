@@ -4,9 +4,6 @@ import axios from 'axios';
 import UsersAPI from '../FetchRequest';
 import photoDefult from './../../img/photo-cover.svg';
 
-
-
-// import FetchRequest from './FetchRequest';
 import style from './UserList.module.scss';
 
 axios.defaults.baseURL= 'https://frontend-test-assignment-api.abz.agency';
@@ -75,8 +72,8 @@ class UsersList extends Component {
                         {users.map(({id, photo, name, position, email, phone}) => (
                             <li key={id} className={style.user__item}>
                                 <div className={style.user__wrap_photo}>
-                                    <object data={photo} type="image/jpg">
-                                        <img src={photoDefult} className={style.user__photo}/>
+                                    <object data={photo} type="image/jpg" alt="img_item">
+                                        <img src={photoDefult} className={style.user__photo} alt="img_item"/>
                                     </object>
                                 </div>
                                 <span className={style.user__name}>{name}</span>
