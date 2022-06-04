@@ -38,7 +38,7 @@ class AddUser extends Component {
         if (!values.phone) {
             errors.phone = 'No phone number provided';
         } 
-        else if (!/^[\+]{0,1}380([0-9]{9})$/i.test(values.phone)) {
+        else if (!/^[+]{1}380([0-9]{9})$/i.test(values.phone)) {
             errors.phone = 'Wrong number';
         }
         if (!values.position_id) {
@@ -159,9 +159,9 @@ class AddUser extends Component {
                                     {
                                         positionList.map(({id, name}) =>(
                                             <label className={style.radio__input}>
-                                                <Field id={id} type="radio" hidden name="position_id" value={id} checked={values.position_id == id} className={style.input_radio}/>
+                                                <Field id={id} type="radio" hidden name="position_id" value={id} checked={Number(values.position_id) === id} className={style.input_radio}/>
                                                 {name}
-                                                <span className={values.position_id == id ? style.radio_button + ' ' + style.radio_button__checked: style.radio_button}></span>
+                                                <span className={Number(values.position_id) === id ? style.radio_button + ' ' + style.radio_button__checked: style.radio_button}></span>
                                             </label>
                                         ))
                                         
