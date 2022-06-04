@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/abzagency_test_task/static/css/main.296904b4.css",
-    "main.js": "/abzagency_test_task/static/js/main.173e47a0.js",
+    "main.js": "/abzagency_test_task/static/js/main.a5150f1b.js",
     "static/media/pexels-alexandr-podvalny.jpg": "/abzagency_test_task/static/media/pexels-alexandr-podvalny.c4e8c7a8c3b21bda7e47.jpg",
     "static/media/success-image.svg": "/abzagency_test_task/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
     "static/media/Logo.svg": "/abzagency_test_task/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
     "static/media/photo-cover.svg": "/abzagency_test_task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
     "index.html": "/abzagency_test_task/index.html",
     "main.296904b4.css.map": "/abzagency_test_task/static/css/main.296904b4.css.map",
-    "main.173e47a0.js.map": "/abzagency_test_task/static/js/main.173e47a0.js.map"
+    "main.a5150f1b.js.map": "/abzagency_test_task/static/js/main.a5150f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.296904b4.css",
-    "static/js/main.173e47a0.js"
+    "static/js/main.a5150f1b.js"
   ]
 }
